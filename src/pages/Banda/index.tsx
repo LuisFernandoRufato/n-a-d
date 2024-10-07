@@ -14,7 +14,7 @@ export function Banda(){
       {/* Navbar */}
       <nav className="bg-gray-800 py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold ml-4">Náufragos à Deriva</h1>
+          <h1 className="text-4xl font-bold ml-4">Náufragos à Deriva</h1>
           <ul className="flex space-x-6">
             <li><a href="#about" className="hover:text-gray-400">Sobre</a></li>
             <li><a href="#music" className="hover:text-gray-400">Músicas</a></li>
@@ -27,7 +27,7 @@ export function Banda(){
 
       {/* Hero Section */}
       <section
-        className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
+        className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat opacity-75"
         style={{ backgroundImage: `url(${backgroundImage1})` }}
         >
         <div className="text-center text-white">
@@ -42,13 +42,18 @@ export function Banda(){
           <h2 className="text-4xl font-bold mb-8 text-center">Sobre a Banda</h2>
           <p className="text-lg justify-start ml-4">
           Náufragos à Deriva é uma banda de rock alternativo formada em Sorocaba/SP no ano de 2017. Voltada para um repertório de músicas que nos levam aos mais diversos e profundos sentimentos, os músicos prezam pela poética em suas letras e melodias. A banda teve uma longa pausa no ano de 2020, retornando no início de 2023. Desde sua formação, a Náufragos já gravou diversas músicas em estúdio, e agora em 2024 estão lançando algumas dessas músicas, que farão parte de seu primeiro EP.
-          </p>
+          </p><br /><br />
+          <h2 className='text-2xl text-center font-bold ml-4'>Formação:</h2>
+          <p className='text-center ml-4'>Lucas Caruso - Vocalista</p>
+          <p className='text-center ml-4'>Luis Fernando - Guitarrista</p>
+          <p className='text-center ml-4'>Maiko Roberto - Baixista</p>
+          <p className='text-center ml-4'>Gerly Miguel - Baterista</p>
         </div>
       </section>
 
       {/* Music Section */}
       <section id="music" className="py-16 bg-gray-800">
-      <h2 className="text-4xl font-bold mb-8 text-center">Nos acompanhe em:</h2>
+      <h2 className="text-4xl font-bold mb-8 text-center">Escute agora em:</h2>
       <div className="flex justify-center items-center">
       <a href="https://linktr.ee/naufragosaderiva" target="_blank" rel="noopener noreferrer"
         className="text-blue-500 hover:text-blue-700 text-2xl underline font-semibold">naufragos.banda</a>
@@ -101,17 +106,10 @@ export function Banda(){
           <div className="flex justify-center">
             <ul className="space-y-4">
               <li className="bg-gray-700 py-4 px-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold">25 de Outubro - São Paulo</h3>
-                <p>Local: Estádio do Morumbi</p>
+                <h3 className="text-2xl font-bold">23 e 24 de Novembro - Sorocaba/SP</h3>
+                <p>Local: Parque dos Espanhóis</p>
               </li>
-              <li className="bg-gray-700 py-4 px-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold">12 de Novembro - Rio de Janeiro</h3>
-                <p>Local: Maracanã</p>
-              </li>
-              <li className="bg-gray-700 py-4 px-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold">18 de Dezembro - Brasília</h3>
-                <p>Local: Estádio Nacional</p>
-              </li>
+              
             </ul>
           </div>
         </div>
