@@ -43,7 +43,7 @@ export function Banda(){
           <p className="text-lg justify-start ml-4">
           Náufragos à Deriva é uma banda de rock alternativo formada em Sorocaba/SP no ano de 2017. Voltada para um repertório de músicas que nos levam aos mais diversos e profundos sentimentos, os músicos prezam pela poética em suas letras e melodias. A banda teve uma longa pausa no ano de 2020, retornando no início de 2023. Desde sua formação, a Náufragos já gravou diversas músicas em estúdio, e agora em 2024 estão lançando algumas dessas músicas, que farão parte de seu primeiro EP.
           </p><br /><br />
-          <h2 className='text-2xl text-center font-bold ml-4'>Formação:</h2>
+          <h2 className='text-2xl text-center font-bold ml-4'>Formação</h2>
           <p className='text-center ml-4'>Lucas Caruso - Vocalista</p>
           <p className='text-center ml-4'>Luis Fernando - Guitarrista</p>
           <p className='text-center ml-4'>Maiko Roberto - Baixista</p>
