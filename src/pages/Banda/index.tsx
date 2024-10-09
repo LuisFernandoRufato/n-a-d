@@ -14,13 +14,13 @@ export function Banda() {
       {/* Navbar */}
       <nav className="bg-gray-800 py-4">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
-          <h1 className="text-3xl font-bold ml-8">Náufragos à Deriva</h1>
+          <h1 className="text-3xl font-bold ml-10">Náufragos à Deriva</h1>
           <ul className="flex space-x-4 ml-4">
             <li><a href="#about" className="hover:text-gray-400">Sobre</a></li>
             <li><a href="#music" className="hover:text-gray-400">Músicas</a></li>
             <li><a href="#gallery" className="hover:text-gray-400">Fotos</a></li>
             <li><a href="#tour" className="hover:text-gray-400">Shows</a></li>
-            <li><a href="#contact" className="hover:text-gray-400 mr-4">Contato</a></li>
+            <li><a href="#contact" className="hover:text-gray-400 mr-2">Contato</a></li>
           </ul>
         </div>
       </nav>
@@ -31,7 +31,7 @@ export function Banda() {
         style={{ backgroundImage: `url(${backgroundImage1})` }}
       >
         <div className="text-center text-white px-4">
-          <h2 className="text-1xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 mr-16">Bem-vindo(a) à bordo da N.A.D</h2>
+          <h2 className="text-1xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4">Bem-vindo(a) à bordo da N.A.D</h2>
         </div>
       </section>
 
