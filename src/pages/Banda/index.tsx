@@ -31,7 +31,7 @@ export function Banda() {
         style={{ backgroundImage: `url(${backgroundImage1})` }}
       >
         <div className="text-center text-white px-4">
-          <h2 className="text-1xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4">Bem-vindo(a) à bordo da N.A.D</h2>
+          <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4">Bem-vindo(a) à bordo da N.A.D</h2>
         </div>
       </section>
 
