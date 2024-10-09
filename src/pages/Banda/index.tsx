@@ -12,7 +12,7 @@ export function Banda() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans">
       {/* Navbar */}
-      <nav className="bg-gray-900 ml-6 py-4">
+      <nav className="bg-gray-900 ml-6 mr-2 py-4">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
           <h1 className="text-4xl font-bold mb-2">Náufragos à Deriva</h1>
           <ul className="flex space-x-5">
