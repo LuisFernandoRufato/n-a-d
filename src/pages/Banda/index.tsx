@@ -12,7 +12,7 @@ export function Banda() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans">
       {/* Navbar */}
-      <nav className="bg-gray-900 ml-10 mr-4 py-4">
+      <nav className="bg-gray-900 ml-10 mr-6 py-4">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
           <h1 className="text-4xl font-bold mb-2">Náufragos à Deriva</h1>
           <ul className="flex space-x-5">
@@ -20,7 +20,7 @@ export function Banda() {
             <li><a href="#music" className="hover:text-gray-400">Músicas</a></li>
             <li><a href="#gallery" className="hover:text-gray-400">Fotos</a></li>
             <li><a href="#tour" className="hover:text-gray-400">Shows</a></li>
-            <li><a href="#contact" className="hover:text-gray-400">Contato</a></li>
+            <li><a href="#contact" className="hover:text-gray-400 mr-4">Contato</a></li>
           </ul>
         </div>
       </nav>
