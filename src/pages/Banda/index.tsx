@@ -15,7 +15,7 @@ export function Banda() {
       <nav className="bg-gray-900 ml-10 py-4">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
           <h1 className="text-4xl font-bold mb-2">Náufragos à Deriva</h1>
-          <ul className="flex space-x-5">
+          <ul className="flex space-x-4">
             <li><a href="#about" className="hover:text-gray-400">Sobre</a></li>
             <li><a href="#music" className="hover:text-gray-400">Músicas</a></li>
             <li><a href="#gallery" className="hover:text-gray-400">Fotos</a></li>
