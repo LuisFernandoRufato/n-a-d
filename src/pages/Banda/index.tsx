@@ -81,7 +81,7 @@ export function Banda() {
           <div className="flex justify-center">
             <ul className="space-y-4">
               <li className="bg-gray-700 py-4 px-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold">23 e 24 de Novembro - Sorocaba/SP</h3>
+                <h3 className="text-2xl font-bold">23 de Novembro - Sorocaba/SP</h3>
                 <p>Local: Parque dos Espanhóis</p>
               </li>
             </ul>
