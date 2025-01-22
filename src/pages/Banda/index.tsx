@@ -81,8 +81,8 @@ export function Banda() {
           <div className="flex justify-center">
             <ul className="space-y-4">
               <li className="bg-gray-700 py-4 px-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold">23 de Novembro - Sorocaba/SP</h3>
-                <p>Local: Parque dos Espanhóis</p>
+                <h3 className="text-2xl font-bold">Data: ????? - Sorocaba/SP</h3>
+                <p>Local: ?????</p>
               </li>
             </ul>
           </div>
@@ -105,7 +105,7 @@ export function Banda() {
       {/* Footer */}
       <footer className="bg-gray-800 py-6">
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 Náufragos à Deriva - Todos os direitos reservados.</p>
+          <p>&copy; 2025 Náufragos à Deriva - Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
